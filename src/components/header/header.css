@@ -1,0 +1,25 @@
+.main-header_block{
+    background-color: rgb(121, 198, 201);
+    height: 63px;
+}
+.header-block_navigation{
+    padding-top: 22px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;   
+   
+}
+.block-navigation_list{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    padding-right: 30px;
+}
+.block-navigation_logo{
+    padding-left: 23px;
+}
+.navigation-list_item{
+    margin-left: 35px;
+}
+
