@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 import './header.css'
 
@@ -9,14 +10,14 @@ const Header: React.FC = ( ) =>{
                 <a href="#" className="block-navigation_logo">Todo</a>
                 <ul className="block-navigation_list">
                     <li className="navigation-list_item">
-                        <a href="#" className="navigation-list_link">
+                        <Link to="/" className="navigation-list_link">
                             List
-                        </a>
+                        </Link>
                     </li>
                     <li className="navigation-list_item">
-                        <a href="#" className="navigation-list_link">
+                        <Link to="/About" className="navigation-list_link">
                             About
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </div>
