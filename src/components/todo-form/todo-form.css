@@ -1,0 +1,15 @@
+.todo-form_block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.todo-form_block label{
+    color: gray;
+}
+.todo-form_block input{
+    width: 420px;
+    border: 1px solid rgb(201, 197, 197);
+    outline: none;
+}
