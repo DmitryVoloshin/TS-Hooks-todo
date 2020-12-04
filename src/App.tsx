@@ -2,13 +2,16 @@ import React from 'react';
 
 import './App.css';
 import Header from './components/header/header';
+import TodoForm from './components/todo-form/todo-form';
 
 const App: React.FC = ( ) =>{
   return(
-    <div>
+    <>
       <Header/>
-      <span>GG</span>
-    </div>
+      <div className="">
+          <TodoForm/>
+      </div>
+    </>
   )
 }
 
